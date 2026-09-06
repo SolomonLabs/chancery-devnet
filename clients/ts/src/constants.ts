@@ -21,17 +21,17 @@
 // @end-generated-idl
 import { PublicKey } from "@solomon-labs/publickey";
 
-export const PROGRAM_ID = new PublicKey("11111111111111111111111111111111");
+export const PROGRAM_ID = new PublicKey("3doMTb5u94mzTDoBbyJXbZscNE3suuQe75ybYmirKute");
 
 export const DEFAULT_PUBLIC_KEY = new PublicKey("11111111111111111111111111111111");
 
-export const CHANCERY_CONFIG = new PublicKey("5sPq2NzkiVD2SwWhtBh2mjXbVoDdxrYPLFEtYmsJegek");
-export const EVENT_AUTHORITY = new PublicKey("HE3WfuAPV3DuUvQXRA2A3g97kW25sHe8E8cfgpvpMyhS");
-export const ISSUED_TOKEN_CONTROL = new PublicKey("7XG757nav7dUxsda8f34JASKvNm3fn7hqQcbEPbPXbKS");
-export const MIGRATION_CONFIG = new PublicKey("AmzthwKX6Gxs2ryCn2CVwY9HptedBTBGijvx8P9JRNHy");
-export const MODULE_ACTIVATION_STATE = new PublicKey("BMeF8RNKgLsdk7FSD6tL9hsVTQc9md6Vim1oD4fQy8Mw");
-export const PAUSE_STATE = new PublicKey("DF7VmHRej1Fm7xrZuBqnGVU3jgkLtvotW43fJnNiQmX4");
-export const RESERVE_AUTHORITY_PDA = new PublicKey("8anxfyoftY9hPwxdvReet2beFS2HXjcXraPEamo4nGyB");
+export const CHANCERY_CONFIG = new PublicKey("9vmNJfDPPB2ftSBS3qg2E47R7jPJ8mbuvK82tXbfxkP6");
+export const EVENT_AUTHORITY = new PublicKey("7Aq1eLVkaP5aZmojcJg93PMb47Dtjf6pyAsqLdFhozig");
+export const ISSUED_TOKEN_CONTROL = new PublicKey("35J3ja4mrZ4m81bo4Naig79983RM2JpNmFNX5pcJgpd6");
+export const MIGRATION_CONFIG = new PublicKey("XRGhFj1mdTKwYJztF87cTDBZyzZn76UvaH5Uj8UKZCu");
+export const MODULE_ACTIVATION_STATE = new PublicKey("CnFJmDyKb2JbwiBsbRvD2H63EmrobHaDVyyZ7hTfPunm");
+export const PAUSE_STATE = new PublicKey("CAnBVzhaDFvM6sKcQGG9bK2G1RGXjy7dqkYUXSxDQ2Z5");
+export const RESERVE_AUTHORITY_PDA = new PublicKey("6f7T3pGR2AwzHdGFZiupB6T7jzgDgUKqwHp6TmZFZxBs");
 
 export const ACCOUNT_SIZES = {
     ASSET_PAUSE_STATE: 144,

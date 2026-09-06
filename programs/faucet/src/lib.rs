@@ -8,7 +8,7 @@ pub mod constants;
 mod instructions;
 mod token;
 
-declare_id!("11111111111111111111111111111111");
+declare_id!("6JgE46kwvTqPpY7s2DDjFDvSqWdmfm9puoDBRqHubn85");
 
 const _: () = {
     const SENTINEL: [u8; 32] = [0u8; 32];

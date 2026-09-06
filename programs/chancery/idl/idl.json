@@ -1,10 +1,10 @@
 {
-    "address": "11111111111111111111111111111111",
+    "address": "3doMTb5u94mzTDoBbyJXbZscNE3suuQe75ybYmirKute",
     "metadata": {
         "name": "chancery",
         "version": "1.0.1",
         "spec": "0.1.0",
-        "description": "Chancery program: a policy-governed mint/redeem settlement rail for proprietary reserves.",
+        "description": "Chancery devnet build: a policy-governed mint/redeem settlement rail, with the governance timelock floors reduced to the devnet minimum.",
         "repository": "https://github.com/SolomonLabs/chancery",
         "contact": "security@soletechltd.org",
         "dependencies": [
@@ -78,7 +78,10 @@
             }
         ],
         "deployments": {
-            "devnet": "11111111111111111111111111111111"
+            "mainnet": null,
+            "testnet": null,
+            "devnet": "3doMTb5u94mzTDoBbyJXbZscNE3suuQe75ybYmirKute",
+            "localnet": null
         }
     },
     "instructions": [
@@ -19785,7 +19788,8 @@
                 "that still keeps propose and accept in separate slots, so the rotation",
                 "path stays genuinely slot-gated while a transfer completes within a test",
                 "run. It provides no reaction window for off-chain monitors and carries no",
-                "relationship to the production floor."
+                "relationship to the production floor.",
+                "Source: https://github.com/SolomonLabs/chancery/blob/main/programs/chancery/src/constants/numeric.rs"
             ]
         },
         {

@@ -13,7 +13,7 @@ use solana_pubkey::declare_id;
 // at `.devnet/program-keypair.json`. The all-zero sentinel below means the
 // identity has not been stamped yet; the guard underneath refuses to compile
 // against it, and the deploy path refuses to run against it.
-declare_id!("11111111111111111111111111111111");
+declare_id!("3doMTb5u94mzTDoBbyJXbZscNE3suuQe75ybYmirKute");
 
 // ─── unstamped identity guard ───────────────────────────────────────────────
 //

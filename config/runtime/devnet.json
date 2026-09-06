@@ -13,7 +13,7 @@
     "legacy_usdv_mint_manifest_path": ".devnet/legacy-usdv-mint.json",
     "max_extension_observation_age_slots": "0",
     "devnet_airdrop": {
-        "enabled": true,
+        "enabled": false,
         "required": false,
         "lamports": "2000000000"
     }
