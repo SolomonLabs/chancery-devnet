@@ -1,0 +1,29 @@
+{
+    "description": "Chancery devnet build: a policy-governed mint/redeem settlement rail, with the governance timelock floors reduced to the devnet minimum.",
+    "repository": "https://github.com/SolomonLabs/chancery",
+    "contact": "security@soletechltd.org",
+    "docs": [
+        "Native Solana settlement program. Wire format: [module_id, ix_id, ...borsh args].",
+        "Account state is #[repr(C)] bytemuck with explicit padding fields."
+    ],
+    "dependenciesFrom": "cargo",
+    "cluster": "devnet",
+    "mirrorAddress": true,
+    "deployments": {
+        "devnet": null
+    },
+    "source": {
+        "ref": "main",
+        "pathPrefix": "",
+        "urlTemplate": "{repository}/blob/{ref}/{path}",
+        "label": "Source:",
+        "mode": "append",
+        "targets": [
+            "instructions",
+            "accounts",
+            "events",
+            "types",
+            "constants"
+        ]
+    }
+}

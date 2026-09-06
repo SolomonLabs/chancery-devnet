@@ -1,0 +1,44 @@
+{
+    "schema_version": 2,
+    "origin": "internal-upstream",
+    "status": "complete",
+    "outputs": [
+        {
+            "path": "vendor/combined/index.js",
+            "sha256": "853b4aca38b9b7839b4a75117e95191f5efb227926f21f6255975e2133268531"
+        },
+        {
+            "path": "vendor/combined/index.d.ts",
+            "sha256": "74cdf6246537ab7cccb841e2fdd3c7ee113891df29e4d0f839a576b1e5f52ede"
+        },
+        {
+            "path": "vendor/testing/index.js",
+            "sha256": "51ea70b5ca37b6a943bb55093f5617bb2d82df79fe17c002912773c0f02fd13d"
+        },
+        {
+            "path": "vendor/testing/index.d.ts",
+            "sha256": "9c030f83263aa6fcc99b2aeec28b4377e6d471fe3d8f24b9f9b02d1b1b88f4b2"
+        }
+    ],
+    "packages": [
+        {
+            "name": "@solomon-labs/combined",
+            "package_json_path": "vendor/combined/package.json",
+            "package_json_sha256": "a987e7a457bfe05512707406f3452371630c0cf09b445c2bf7fe83d666092666"
+        },
+        {
+            "name": "@solomon-labs/testing",
+            "package_json_path": "vendor/testing/package.json",
+            "package_json_sha256": "53e5630f6ebd0a83921696a4b4472f8c612657c141dfdcd15973b9a70081b7d9"
+        },
+        {
+            "name": "@solomon-labs/squads-v4",
+            "package_json_path": "vendor/squads-v4/package.json",
+            "package_json_sha256": "18e55b6c3e650c74f45c182988c154c62a5d699758c7be9883f0613eda86f062"
+        }
+    ],
+    "notes": [
+        "Every vendored package is authored inside the Solomon Labs monorepo; there is no third-party publisher, so upstream source archives, package licences, and component SBOMs do not apply.",
+        "The canonical form of each file is its Git index blob; the audit assessed-tree digest covers these bytes, and the sha256 values above bind the exact retained outputs and package manifests."
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Chancery devnet",
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": false,
+        "isolatedModules": true,
+        "moduleResolution": "bundler",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveWatchOutput": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "useDefineForClassFields": true,
+        "verbatimModuleSyntax": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "useUnknownInCatchVariables": true,
+        "target": "ES2022",
+        "lib": [
+            "ES2022",
+            "esnext"
+        ],
+        "module": "ESNext",
+        "types": [
+            "node"
+        ],
+        "paths": {
+            "@solomon-labs/base58": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/base58/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/buffer": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/buffer/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/crypto": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/crypto/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/combined": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/combined/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/solana-codec": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/solana-codec/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/solana-connection-manager": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/solana-connection-manager/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/solana-rpc": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/solana-rpc/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/solana-parsing": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/solana-parsing/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/solana-transactions": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/solana-transactions/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/publickey": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/publickey/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/types": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/types/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/common": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/common/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/constants": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/constants/*": [
+                "./vendor/combined/*"
+            ],
+            "@solomon-labs/util": [
+                "./vendor/combined"
+            ],
+            "@solomon-labs/util/*": [
+                "./vendor/combined/*"
+            ],
+            "clients/ts/src": [
+                "./clients/ts/src"
+            ],
+            "clients/ts/src/*": [
+                "./clients/ts/src/*"
+            ]
+        }
+    },
+    "include": [
+        "config/**/*",
+        "runtime/**/*",
+        "scripts/**/*",
+        "vendor",
+        "clients/ts/src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "coverage",
+        "target"
+    ]
+}

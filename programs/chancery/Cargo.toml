@@ -1,0 +1,42 @@
+[package]
+name                       = "chancery"
+edition                    = "2024"
+version                    = "1.0.1"
+
+[lib]
+crate-type                 = ["cdylib", "lib"]
+
+[dependencies]
+bytemuck                   = { workspace = true }
+borsh                      = { workspace = true }
+thiserror                  = { workspace = true }
+solana-account-info        = { workspace = true }
+solana-clock               = { workspace = true }
+solana-cpi                 = { workspace = true }
+solana-instruction         = { workspace = true }
+solana-pubkey              = { workspace = true }
+solana-msg                 = { workspace = true }
+solana-program-entrypoint  = { workspace = true }
+solana-program-error       = { workspace = true }
+solana-rent                = { workspace = true }
+solana-sha256-hasher       = { workspace = true }
+solana-keccak-hasher       = { workspace = true }
+solana-secp256k1-recover   = { workspace = true }
+solana-system-interface    = { workspace = true }
+solana-sysvar              = { workspace = true }
+
+[dev-dependencies]
+# Host-target `cargo test` needs the off-chain hash fallbacks; on target
+# `solana` (cargo build-sbf, which ignores dev-dependencies) the syscall
+# implementations are used and these features stay disabled.
+solana-keccak-hasher       = { workspace = true, features = ["sha3"] }
+solana-sha256-hasher       = { workspace = true, features = ["sha2"] }
+syn                        = { workspace = true }
+
+[features]
+custom-heap                = []
+custom-panic               = []
+no-entrypoint              = []
+
+[lints.rust]
+unexpected_cfgs            = { level = "warn", check-cfg = ['cfg(target_os, values("solana"))'] }

@@ -1,0 +1,26 @@
+{
+    "schema_version": 1,
+    "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "decimals": 6,
+    "metadata": {
+        "name": "USDv",
+        "symbol": "USDv",
+        "uri": "https://soletechltd.org/assets/usdv.json",
+        "offchain_json_sha256": "5dfa82e9503d829f5b2c6790672c6ad2f34a47d16182a8ff8a2b46ab0d67004a"
+    },
+    "authority_posture": {
+        "mode": "chancery_pda_reserved",
+        "metadata_updates_require_chancery_upgrade": true,
+        "extension_authorities_reserved_for_future_use": true
+    },
+    "reserved_extensions": [
+        "TransferHook",
+        "ConfidentialTransfer",
+        "PermanentDelegate",
+        "Pausable",
+        "MetadataPointer",
+        "MintCloseAuthority",
+        "DefaultAccountState",
+        "TokenMetadata"
+    ]
+}

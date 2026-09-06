@@ -1,0 +1,16 @@
+target/
+node_modules
+.yarn
+*.tsbuildinfo
+*.log
+.DS_Store
+.env
+.env.*
+
+# devnet keypairs, deployment manifests, mint records
+.devnet/
+
+# codegen scratch
+programs/chancery/idl/idl.check.json
+clients/ts/solana-libgen.report.json
+clients/ts/.idl-generator-history.json

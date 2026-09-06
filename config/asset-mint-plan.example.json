@@ -1,0 +1,31 @@
+{
+    "schema_version": 1,
+    "network": "devnet",
+    "allocations": [
+        {
+            "symbol": "USDC",
+            "recipient_owner": "<SET_TEST_WALLET_PUBLIC_KEY>",
+            "minimum_balance_base_units": "1000000000"
+        },
+        {
+            "symbol": "USDT",
+            "recipient_owner": "<SET_TEST_WALLET_PUBLIC_KEY>",
+            "minimum_balance_base_units": "1000000000"
+        },
+        {
+            "symbol": "USDG",
+            "recipient_owner": "<SET_TEST_WALLET_PUBLIC_KEY>",
+            "minimum_balance_base_units": "1000000000"
+        },
+        {
+            "symbol": "PYUSD",
+            "recipient_owner": "<SET_TEST_WALLET_PUBLIC_KEY>",
+            "minimum_balance_base_units": "1000000000"
+        },
+        {
+            "symbol": "USDV-LEGACY",
+            "recipient_owner": "<SET_TEST_WALLET_PUBLIC_KEY>",
+            "minimum_balance_base_units": "1000000000000"
+        }
+    ]
+}

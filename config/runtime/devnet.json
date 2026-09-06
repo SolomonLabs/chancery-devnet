@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "network": "devnet",
+    "rpc_url": "https://api.devnet.solana.com",
+    "rpc_provider_id": "solana-foundation-public-devnet",
+    "program_keypair_path": ".devnet/program-keypair.json",
+    "upgrade_authority_keypair_path": ".devnet/upgrade-authority.json",
+    "fee_payer_keypair_path": ".devnet/fee-payer.json",
+    "setup_authority_keypair_path": ".devnet/setup-authority.json",
+    "issued_mint_keypair_path": ".devnet/usdv-mint-keypair.json",
+    "chancery_manifest_path": ".devnet/chancery-deployment.json",
+    "issued_mint_manifest_path": ".devnet/usdv-mint.json",
+    "legacy_usdv_mint_manifest_path": ".devnet/legacy-usdv-mint.json",
+    "max_extension_observation_age_slots": "0",
+    "devnet_airdrop": {
+        "enabled": true,
+        "required": false,
+        "lamports": "2000000000"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "schema_version": 2,
+    "origin": "internal-upstream",
+    "status": "complete",
+    "outputs": [
+        {
+            "path": "bin/rust-idl-generator.js",
+            "sha256": "7e825aabdc638cd16bd1a8af367dcd6a791c10e8eb7e7d062f282d1c387711ed"
+        },
+        {
+            "path": "bin/solana-libgen.js",
+            "sha256": "967b3a30ef47bd614079b5a84cd029b9a45993c726dd8efc0284ad3e9a70b226"
+        }
+    ],
+    "notes": [
+        "Both bundles are authored and built inside the Solomon Labs monorepo; there is no third-party publisher, so upstream source archives, package licences, and component SBOMs do not apply.",
+        "The canonical form of each file is its Git index blob; the audit assessed-tree digest covers these bytes, and the sha256 values above bind the exact retained bundles."
+    ]
+}
